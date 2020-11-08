@@ -29,7 +29,7 @@ const corsOptions = {
 const app = express();
 
 // Settings
-app.set('port', 27017);
+app.set('port', process.env.PORT || 3000);
 
 // Middlewares
 // Enable preflight requests for all routes
