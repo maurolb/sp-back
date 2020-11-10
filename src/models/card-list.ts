@@ -17,4 +17,4 @@ const cardListSchema = new Schema({
 
 });
 
-export default model<ICardList>('shoppingCard_list', cardListSchema, 'shoppingCard_list');
+export default model<ICardList>('shoppingCard_list', cardListSchema);

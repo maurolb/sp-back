@@ -26,4 +26,4 @@ const listSchema = new Schema({
     }
 });
 
-export default model<IList>('list', listSchema, 'list');
+export default model<IList>('list', listSchema);
