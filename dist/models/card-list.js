@@ -10,4 +10,4 @@ const cardListSchema = new mongoose_1.Schema({
         type: Array
     }
 });
-exports.default = mongoose_1.model('shoppingCard_list', cardListSchema, 'shoppingCard_list');
+exports.default = mongoose_1.model('shoppingCard_list', cardListSchema);

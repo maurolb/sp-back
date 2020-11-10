@@ -7,4 +7,4 @@ const cardSchema = new mongoose_1.Schema({
         default: Date.now
     }
 });
-exports.default = mongoose_1.model('card', cardSchema, 'card');
+exports.default = mongoose_1.model('card', cardSchema);

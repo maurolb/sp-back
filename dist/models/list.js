@@ -19,4 +19,4 @@ const listSchema = new mongoose_1.Schema({
         ref: 'shoppingCard'
     }
 });
-exports.default = mongoose_1.model('list', listSchema, 'list');
+exports.default = mongoose_1.model('list', listSchema);
